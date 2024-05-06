@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-console.log(chalk.bold.italic.underline.greenBright.bgYellowBright("\n>>>>>---*** WELCOME TO THE STUDENT MANAGEMENT SYSTEM ***---<<<<<\n"));
+console.log(chalk.bold.italic.underline.greenBright("\n>>>>>---*** WELCOME TO THE STUDENT MANAGEMENT SYSTEM ***---<<<<<\n"));
 class student {
     id;
     name;
